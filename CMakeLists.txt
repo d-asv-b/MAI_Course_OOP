@@ -14,4 +14,6 @@ FetchContent_Declare(
 )
 FetchContent_MakeAvailable(googletest)
 
-add_subdirectory(Lab2)
+add_subdirectory(OOP_Lab1)
+add_subdirectory(OOP_Lab2)
+add_subdirectory(OOP_Lab3)
