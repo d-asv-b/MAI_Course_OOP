@@ -1,0 +1,34 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Current Lab",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}/Lab_exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Enable break on all exceptions",
+                    "text": "catch throw",
+                    "ignoreFailures": true
+                }
+            ],
+            "sourceFileMap": {
+                "/workspaces/Course_OOP": "${workspaceFolder}"
+            },
+            "preLaunchTask": "build current lab"
+        }
+    ]
+}
