@@ -5,7 +5,7 @@
             "name": "Debug Current Lab",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}/Lab_exe",
+            "program": "${workspaceFolder}/build/${fileDirnameBasename}/Lab_exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${fileDirname}",
