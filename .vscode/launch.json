@@ -8,7 +8,7 @@
             "program": "${workspaceFolder}/build/${fileDirnameBasename}/Lab_exe",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${fileDirname}",
+            "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
@@ -26,7 +26,7 @@
                 }
             ],
             "sourceFileMap": {
-                "/workspaces/Course_OOP": "${workspaceFolder}"
+                "${workspaceFolder}": "${workspaceFolder}"
             },
             "preLaunchTask": "build current lab"
         }
