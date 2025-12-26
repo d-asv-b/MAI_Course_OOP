@@ -16,3 +16,6 @@
 [submodule "OOP_Lab6"]
 	path = OOP_Lab6
 	url = https://github.com/d-asv-b/OOP_Lab6
+[submodule "OOP_Lab7"]
+	path = OOP_Lab7
+	url = https://github.com/d-asv-b/OOP_Lab7
